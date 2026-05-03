@@ -1,4 +1,4 @@
-# 🤖 TraderMaamoo – OTZ Automated Swing Trading Bot
+# 🤖 OTZ Automated Swing Trading Bot
 
 ## 📊 Live Equity Growth
 ![Equity Chart](https://raw.githubusercontent.com/shanali-sg/TraderMaamoo/main/equity_chart.png)
