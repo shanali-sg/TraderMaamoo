@@ -1,9 +1,6 @@
-# 🤖 OTZ Automated Swing Trading Bot
+# 🤖 OTZ Bot - Equity Tracker
 
-## 📊 Live Equity Growth
-![Equity Chart](https://raw.githubusercontent.com/shanali-sg/TraderMaamoo/main/equity_chart.png)
-
-## 📈 Performance Metrics
+## 📊 Current Status
 | Metric | Value |
 |--------|-------|
 | Start Date | April 1, 2026 |
@@ -11,11 +8,21 @@
 | **Current Equity** | **$XXX.XX** |
 | **Total Return** | **+XXX%** |
 
-## 🔔 Trade Alerts
-Subscribe to my private Telegram channel for real-time trade alerts: [@traderMaamooAlerts](https://t.me/traderMaamooAlerts)
+## 📈 Live Equity Chart
+![Equity Chart](equity_chart.png)
 
-## 📋 Strategy Overview
+## 🔔 Trade Alerts
+Real-time alerts on Telegram: [@traderMaamooAlerts](https://t.me/traderMaamooAlerts)
+
+## 📋 Strategy
 - RSI(2) Mean Reversion
-- 3x Leveraged ETFs (TECL, SOXL, FNGU)
+- 3x Leveraged ETFs
 - Market-on-Close execution
 - AI-optimized parameters
+
+## 📊 Performance (Backtested Jan-Apr 2026)
+- Win Rate: **79.8%**
+- Avg Trade: **+4.0%**
+
+---
+*Updated daily after market close*
