@@ -13,9 +13,9 @@
 
 ## 🔔 Trade Alerts
 Subscribe to my private Telegram channel for real-time trade alerts:  
-👉 **[Subscribe to @TraderMaamooAlerts](https://t.me/TraderMaamooAlerts)** 👈
+👉 **[@TraderMaamooAlerts](https://t.me/TraderMaamooAlerts)** 👈
 
-*Note: This is a private channel. You must join to receive alerts.*
+*Bot: @traderMaamooBot*
 
 ## 📋 Strategy
 - RSI(2) Mean Reversion
