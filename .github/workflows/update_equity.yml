@@ -2,8 +2,8 @@ name: Update Equity Chart
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
-  workflow_dispatch:      # Manual trigger
+    - cron: '0 20 * * *'  # Run daily at 4 PM EST (after market)
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   update:
@@ -17,16 +17,19 @@ jobs:
           python-version: '3.11'
       
       - name: Install dependencies
-        run: pip install matplotlib requests
+        run: |
+          pip install requests matplotlib
       
       - name: Run equity tracker
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python track_equity.py
+        run: python update_equity.py
       
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Auto-update equity chart"
-          file_pattern: "equity_chart.png equity_history.json"
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add equity_chart.png equity_history.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update equity chart [skip ci]"
+          git push
