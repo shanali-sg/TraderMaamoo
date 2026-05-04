@@ -12,17 +12,21 @@
 ![Equity Chart](equity_chart.png)
 
 ## 🔔 Trade Alerts
-Real-time alerts on Telegram: [@traderMaamooAlerts](https://t.me/traderMaamooAlerts)
+Subscribe to my private Telegram channel for real-time trade alerts:  
+👉 **[Subscribe to @TraderMaamooAlerts](https://t.me/TraderMaamooAlerts)** 👈
+
+*Note: This is a private channel. You must join to receive alerts.*
 
 ## 📋 Strategy
 - RSI(2) Mean Reversion
-- 3x Leveraged ETFs
+- 3x Leveraged ETFs (SOXL, TQQQ, TECL, LABU)
 - Market-on-Close execution
-- AI-optimized parameters
+- AI-optimized parameters (Llama 3)
 
 ## 📊 Performance (Backtested Jan-Apr 2026)
-- Win Rate: **79.8%**
-- Avg Trade: **+4.0%**
+- Win Rate: **81.2%**
+- Avg Trade: **+4.1%**
+- Best Performer: SOXL (+15.3%, 100% WR)
 
 ---
 *Updated daily after market close*
