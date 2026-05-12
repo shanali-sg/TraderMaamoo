@@ -1,0 +1,1162 @@
+{
+  "strategy": "Stage 2 Trend-Surfer (Red Candle SMA20 Close Entry)",
+  "period": "2026-04-01 to 2026-05-11",
+  "starting_capital": 458.0,
+  "num_bullets": 4,
+  "rr_target": 5.0,
+  "max_hold_days": 7,
+  "metrics": {
+    "total_trades": 28,
+    "win_rate": 89.3,
+    "expectancy": 3.279,
+    "total_pnl": 254.57,
+    "final_capital": 712.57
+  },
+  "trades": [
+    {
+      "trade_id": 1,
+      "symbol": "TENX",
+      "sector": "HEALTHCARE",
+      "bullet": "A",
+      "entry_date": "2026-04-01",
+      "exit_date": "2026-04-02",
+      "entry_price": 14.010000228881836,
+      "exit_price": 14.84,
+      "stop_loss": 13.845000267028809,
+      "target": 14.835000038146973,
+      "shares": 13.878791,
+      "pnl": 11.45,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 75
+    },
+    {
+      "trade_id": 2,
+      "symbol": "FORM",
+      "sector": "TECH",
+      "bullet": "B",
+      "entry_date": "2026-04-01",
+      "exit_date": "2026-04-06",
+      "entry_price": 93.63999938964844,
+      "exit_price": 105.39,
+      "stop_loss": 91.29000091552734,
+      "target": 105.3899917602539,
+      "shares": 0.974469,
+      "pnl": 11.45,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 41.3
+    },
+    {
+      "trade_id": 3,
+      "symbol": "BAI",
+      "sector": "FINANCIALS",
+      "bullet": "A",
+      "entry_date": "2026-04-08",
+      "exit_date": "2026-04-09",
+      "entry_price": 34.220001220703125,
+      "exit_price": 36.57,
+      "stop_loss": 33.75,
+      "target": 36.57000732421875,
+      "shares": 5.359561,
+      "pnl": 12.6,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 84.2
+    },
+    {
+      "trade_id": 4,
+      "symbol": "CHAT",
+      "sector": "FINANCIALS",
+      "bullet": "B",
+      "entry_date": "2026-04-08",
+      "exit_date": "2026-04-09",
+      "entry_price": 63.54999923706055,
+      "exit_price": 67.37,
+      "stop_loss": 62.78499984741211,
+      "target": 67.37499618530273,
+      "shares": 3.292813,
+      "pnl": 12.59,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 57.1
+    },
+    {
+      "trade_id": 5,
+      "symbol": "MU",
+      "sector": "TECH",
+      "bullet": "A",
+      "entry_date": "2026-04-10",
+      "exit_date": "2026-04-14",
+      "entry_price": 407.6099853515625,
+      "exit_price": 453.46,
+      "stop_loss": 398.44000244140625,
+      "target": 453.45989990234375,
+      "shares": 0.302171,
+      "pnl": 13.85,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 29.5
+    },
+    {
+      "trade_id": 6,
+      "symbol": "SION",
+      "sector": "HEALTHCARE",
+      "bullet": "A",
+      "entry_date": "2026-04-14",
+      "exit_date": "2026-04-15",
+      "entry_price": 37.95000076293945,
+      "exit_price": 43.15,
+      "stop_loss": 36.90999984741211,
+      "target": 43.15000534057617,
+      "shares": 2.930757,
+      "pnl": 15.24,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 70.9
+    },
+    {
+      "trade_id": 7,
+      "symbol": "SKYT",
+      "sector": "TECH",
+      "bullet": "C",
+      "entry_date": "2026-04-14",
+      "exit_date": "2026-04-15",
+      "entry_price": 28.5,
+      "exit_price": 30.45,
+      "stop_loss": 28.110000610351562,
+      "target": 30.449996948242188,
+      "shares": 5.871804,
+      "pnl": 11.45,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 60.8
+    },
+    {
+      "trade_id": 8,
+      "symbol": "BAND",
+      "sector": "TECH",
+      "bullet": "A",
+      "entry_date": "2026-04-15",
+      "exit_date": "2026-04-16",
+      "entry_price": 17.1299991607666,
+      "exit_price": 18.63,
+      "stop_loss": 16.829999923706055,
+      "target": 18.629995346069336,
+      "shares": 11.175993,
+      "pnl": 16.76,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 65
+    },
+    {
+      "trade_id": 9,
+      "symbol": "DLX",
+      "sector": "INDUSTRIALS",
+      "bullet": "B",
+      "entry_date": "2026-04-14",
+      "exit_date": "2026-04-17",
+      "entry_price": 27.989999771118164,
+      "exit_price": 29.44,
+      "stop_loss": 27.700000762939453,
+      "target": 29.43999481201172,
+      "shares": 9.55486,
+      "pnl": 13.85,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 65.7
+    },
+    {
+      "trade_id": 10,
+      "symbol": "GOLF",
+      "sector": "CONSUMER",
+      "bullet": "D",
+      "entry_date": "2026-04-15",
+      "exit_date": "2026-04-17",
+      "entry_price": 96.93000030517578,
+      "exit_price": 102.03,
+      "stop_loss": 95.91000366210938,
+      "target": 102.02998352050781,
+      "shares": 2.245105,
+      "pnl": 11.45,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 32.9
+    },
+    {
+      "trade_id": 11,
+      "symbol": "CLBK",
+      "sector": "FINANCIALS",
+      "bullet": "C",
+      "entry_date": "2026-04-15",
+      "exit_date": "2026-04-22",
+      "entry_price": 18.030000686645508,
+      "exit_price": 18.09,
+      "stop_loss": 17.84000015258789,
+      "target": 18.980003356933594,
+      "shares": 13.257857,
+      "pnl": 0.8,
+      "r_multiple": 0.32,
+      "exit_reason": "TIME_EXIT",
+      "score": 41.5
+    },
+    {
+      "trade_id": 12,
+      "symbol": "DCOM",
+      "sector": "FINANCIALS",
+      "bullet": "A",
+      "entry_date": "2026-04-24",
+      "exit_date": "2026-05-01",
+      "entry_price": 35.11000061035156,
+      "exit_price": 35.89,
+      "stop_loss": 34.58000183105469,
+      "target": 37.75999450683594,
+      "shares": 6.958635,
+      "pnl": 5.43,
+      "r_multiple": 1.47,
+      "exit_reason": "TIME_EXIT",
+      "score": 92
+    },
+    {
+      "trade_id": 13,
+      "symbol": "AVTX",
+      "sector": "HEALTHCARE",
+      "bullet": "B",
+      "entry_date": "2026-04-24",
+      "exit_date": "2026-05-01",
+      "entry_price": 14.5,
+      "exit_price": 13.53,
+      "stop_loss": 14.100000381469727,
+      "target": 16.499998092651367,
+      "shares": 7.619982,
+      "pnl": -7.39,
+      "r_multiple": -2.43,
+      "exit_reason": "TIME_EXIT",
+      "score": 64.8
+    },
+    {
+      "trade_id": 14,
+      "symbol": "ORN",
+      "sector": "INDUSTRIALS",
+      "bullet": "D",
+      "entry_date": "2026-04-30",
+      "exit_date": "2026-05-01",
+      "entry_price": 11.75,
+      "exit_price": 13.5,
+      "stop_loss": 11.399999618530273,
+      "target": 13.500001907348633,
+      "shares": 7.197135,
+      "pnl": 12.59,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 85
+    },
+    {
+      "trade_id": 15,
+      "symbol": "COKE",
+      "sector": "CONSUMER",
+      "bullet": "C",
+      "entry_date": "2026-04-27",
+      "exit_date": "2026-05-04",
+      "entry_price": 192.16000366210938,
+      "exit_price": 203.92,
+      "stop_loss": 188.97999572753906,
+      "target": 208.06004333496094,
+      "shares": 0.797139,
+      "pnl": 9.37,
+      "r_multiple": 3.7,
+      "exit_reason": "TIME_EXIT",
+      "score": 46.2
+    },
+    {
+      "trade_id": 16,
+      "symbol": "ORN",
+      "sector": "INDUSTRIALS",
+      "bullet": "A",
+      "entry_date": "2026-05-01",
+      "exit_date": "2026-05-04",
+      "entry_price": 12.069999694824219,
+      "exit_price": 12.92,
+      "stop_loss": 11.899999618530273,
+      "target": 12.920000076293945,
+      "shares": 22.333065,
+      "pnl": 18.98,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 90
+    },
+    {
+      "trade_id": 17,
+      "symbol": "BWA",
+      "sector": "CONSUMER",
+      "bullet": "A",
+      "entry_date": "2026-05-04",
+      "exit_date": "2026-05-06",
+      "entry_price": 56.20000076293945,
+      "exit_price": 59.1,
+      "stop_loss": 55.619998931884766,
+      "target": 59.10000991821289,
+      "shares": 7.200469,
+      "pnl": 20.88,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 48.6
+    },
+    {
+      "trade_id": 18,
+      "symbol": "DSGN",
+      "sector": "HEALTHCARE",
+      "bullet": "B",
+      "entry_date": "2026-05-06",
+      "exit_date": "2026-05-07",
+      "entry_price": 13.34000015258789,
+      "exit_price": 14.09,
+      "stop_loss": 13.1899995803833,
+      "target": 14.09000301361084,
+      "shares": 19.334342,
+      "pnl": 14.5,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 75
+    },
+    {
+      "trade_id": 19,
+      "symbol": "FORM",
+      "sector": "TECH",
+      "bullet": "D",
+      "entry_date": "2026-05-06",
+      "exit_date": "2026-05-07",
+      "entry_price": 138.5,
+      "exit_price": 148.8,
+      "stop_loss": 136.44000244140625,
+      "target": 148.79998779296875,
+      "shares": 1.345099,
+      "pnl": 13.85,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 55
+    },
+    {
+      "trade_id": 20,
+      "symbol": "AAMI",
+      "sector": "FINANCIALS",
+      "bullet": "B",
+      "entry_date": "2026-05-01",
+      "exit_date": "2026-05-08",
+      "entry_price": 64.94999694824219,
+      "exit_price": 67.2,
+      "stop_loss": 62.47999954223633,
+      "target": 77.29998397827148,
+      "shares": 1.174156,
+      "pnl": 2.64,
+      "r_multiple": 0.91,
+      "exit_reason": "TIME_EXIT",
+      "score": 82
+    },
+    {
+      "trade_id": 21,
+      "symbol": "BWA",
+      "sector": "CONSUMER",
+      "bullet": "C",
+      "entry_date": "2026-05-06",
+      "exit_date": "2026-05-08",
+      "entry_price": 56.689998626708984,
+      "exit_price": 60.89,
+      "stop_loss": 55.849998474121094,
+      "target": 60.88999938964844,
+      "shares": 3.240947,
+      "pnl": 13.61,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 72
+    },
+    {
+      "trade_id": 22,
+      "symbol": "DSGN",
+      "sector": "HEALTHCARE",
+      "bullet": "B",
+      "entry_date": "2026-05-07",
+      "exit_date": "2026-05-08",
+      "entry_price": 13.180000305175781,
+      "exit_price": 14.33,
+      "stop_loss": 12.949999809265137,
+      "target": 14.330002784729004,
+      "shares": 13.870312,
+      "pnl": 15.95,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 85
+    },
+    {
+      "trade_id": 23,
+      "symbol": "NUAI",
+      "sector": "TECH",
+      "bullet": "D",
+      "entry_date": "2026-05-07",
+      "exit_date": "2026-05-08",
+      "entry_price": 4.309999942779541,
+      "exit_price": 4.56,
+      "stop_loss": 4.260000228881836,
+      "target": 4.559998512268066,
+      "shares": 60.960149,
+      "pnl": 15.24,
+      "r_multiple": 5.0,
+      "exit_reason": "TARGET",
+      "score": 85
+    },
+    {
+      "trade_id": 24,
+      "symbol": "HLF",
+      "sector": "CONSUMER",
+      "bullet": "A",
+      "entry_date": "2026-05-06",
+      "exit_date": "2026-05-11",
+      "entry_price": 16.0,
+      "exit_price": 14.5,
+      "stop_loss": 15.710000038146973,
+      "target": 17.449999809265137,
+      "shares": 15.841083,
+      "pnl": -23.76,
+      "r_multiple": -5.17,
+      "exit_reason": "EOD_FORCE",
+      "score": 85
+    },
+    {
+      "trade_id": 25,
+      "symbol": "NRGV",
+      "sector": "UTILITIES",
+      "bullet": "A",
+      "entry_date": "2026-05-07",
+      "exit_date": "2026-05-11",
+      "entry_price": 3.9700000286102295,
+      "exit_price": 4.2,
+      "stop_loss": 3.75,
+      "target": 5.070000171661377,
+      "shares": 20.881423,
+      "pnl": 4.8,
+      "r_multiple": 1.05,
+      "exit_reason": "EOD_FORCE",
+      "score": 100
+    },
+    {
+      "trade_id": 26,
+      "symbol": "SUN",
+      "sector": "ENERGY",
+      "bullet": "B",
+      "entry_date": "2026-05-08",
+      "exit_date": "2026-05-11",
+      "entry_price": 65.93415269907823,
+      "exit_price": 67.0,
+      "stop_loss": 64.8403409260498,
+      "target": 71.40321156422033,
+      "shares": 3.256532,
+      "pnl": 3.47,
+      "r_multiple": 0.97,
+      "exit_reason": "EOD_FORCE",
+      "score": 85.5
+    },
+    {
+      "trade_id": 27,
+      "symbol": "CMP",
+      "sector": "BASIC_MATERIALS",
+      "bullet": "C",
+      "entry_date": "2026-05-08",
+      "exit_date": "2026-05-11",
+      "entry_price": 25.780000686645508,
+      "exit_price": 28.48,
+      "stop_loss": 23.610000610351562,
+      "target": 36.630001068115234,
+      "shares": 1.380016,
+      "pnl": 3.73,
+      "r_multiple": 1.24,
+      "exit_reason": "EOD_FORCE",
+      "score": 85
+    },
+    {
+      "trade_id": 28,
+      "symbol": "FTK",
+      "sector": "ENERGY",
+      "bullet": "D",
+      "entry_date": "2026-05-08",
+      "exit_date": "2026-05-11",
+      "entry_price": 16.079999923706055,
+      "exit_price": 16.0,
+      "stop_loss": 15.75,
+      "target": 17.729999542236328,
+      "shares": 10.159969,
+      "pnl": -0.81,
+      "r_multiple": -0.24,
+      "exit_reason": "EOD_FORCE",
+      "score": 56.0
+    }
+  ],
+  "daily_journals": [
+    {
+      "date": "2026-04-01",
+      "account_value": 489.51,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 114.5
+        },
+        "B": {
+          "free": false,
+          "value": 114.5
+        },
+        "C": {
+          "free": true,
+          "value": 114.5
+        },
+        "D": {
+          "free": true,
+          "value": 114.5
+        }
+      },
+      "setups": 2
+    },
+    {
+      "date": "2026-04-02",
+      "account_value": 471.61,
+      "bullets": {
+        "A": {
+          "free": true,
+          "value": 125.95
+        },
+        "B": {
+          "free": false,
+          "value": 114.5
+        },
+        "C": {
+          "free": true,
+          "value": 114.5
+        },
+        "D": {
+          "free": true,
+          "value": 114.5
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-03",
+      "account_value": 471.61,
+      "bullets": {
+        "A": {
+          "free": true,
+          "value": 125.95
+        },
+        "B": {
+          "free": false,
+          "value": 114.5
+        },
+        "C": {
+          "free": true,
+          "value": 114.5
+        },
+        "D": {
+          "free": true,
+          "value": 114.5
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-06",
+      "account_value": 480.9,
+      "bullets": {
+        "A": {
+          "free": true,
+          "value": 125.95
+        },
+        "B": {
+          "free": true,
+          "value": 125.95
+        },
+        "C": {
+          "free": true,
+          "value": 114.5
+        },
+        "D": {
+          "free": true,
+          "value": 114.5
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-07",
+      "account_value": 480.9,
+      "bullets": {
+        "A": {
+          "free": true,
+          "value": 125.95
+        },
+        "B": {
+          "free": true,
+          "value": 125.95
+        },
+        "C": {
+          "free": true,
+          "value": 114.5
+        },
+        "D": {
+          "free": true,
+          "value": 114.5
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-08",
+      "account_value": 513.05,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 125.95
+        },
+        "B": {
+          "free": false,
+          "value": 125.95
+        },
+        "C": {
+          "free": true,
+          "value": 114.5
+        },
+        "D": {
+          "free": true,
+          "value": 114.5
+        }
+      },
+      "setups": 2
+    },
+    {
+      "date": "2026-04-09",
+      "account_value": 506.09,
+      "bullets": {
+        "A": {
+          "free": true,
+          "value": 138.55
+        },
+        "B": {
+          "free": true,
+          "value": 138.55
+        },
+        "C": {
+          "free": true,
+          "value": 114.5
+        },
+        "D": {
+          "free": true,
+          "value": 114.5
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-10",
+      "account_value": 509.92,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 138.55
+        },
+        "B": {
+          "free": true,
+          "value": 138.55
+        },
+        "C": {
+          "free": true,
+          "value": 114.5
+        },
+        "D": {
+          "free": true,
+          "value": 114.5
+        }
+      },
+      "setups": 1
+    },
+    {
+      "date": "2026-04-13",
+      "account_value": 508.77,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 138.55
+        },
+        "B": {
+          "free": true,
+          "value": 138.55
+        },
+        "C": {
+          "free": true,
+          "value": 114.5
+        },
+        "D": {
+          "free": true,
+          "value": 114.5
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-14",
+      "account_value": 546.84,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 152.4
+        },
+        "B": {
+          "free": false,
+          "value": 138.55
+        },
+        "C": {
+          "free": false,
+          "value": 114.5
+        },
+        "D": {
+          "free": true,
+          "value": 114.5
+        }
+      },
+      "setups": 3
+    },
+    {
+      "date": "2026-04-15",
+      "account_value": 572.51,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 167.64
+        },
+        "B": {
+          "free": false,
+          "value": 138.55
+        },
+        "C": {
+          "free": false,
+          "value": 125.95
+        },
+        "D": {
+          "free": false,
+          "value": 114.5
+        }
+      },
+      "setups": 3
+    },
+    {
+      "date": "2026-04-16",
+      "account_value": 573.05,
+      "bullets": {
+        "A": {
+          "free": true,
+          "value": 184.4
+        },
+        "B": {
+          "free": false,
+          "value": 138.55
+        },
+        "C": {
+          "free": true,
+          "value": 125.95
+        },
+        "D": {
+          "free": false,
+          "value": 114.5
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-17",
+      "account_value": 592.95,
+      "bullets": {
+        "A": {
+          "free": true,
+          "value": 184.4
+        },
+        "B": {
+          "free": true,
+          "value": 152.4
+        },
+        "C": {
+          "free": true,
+          "value": 125.95
+        },
+        "D": {
+          "free": true,
+          "value": 125.95
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-20",
+      "account_value": 594.93,
+      "bullets": {
+        "A": {
+          "free": true,
+          "value": 184.4
+        },
+        "B": {
+          "free": true,
+          "value": 152.4
+        },
+        "C": {
+          "free": true,
+          "value": 125.95
+        },
+        "D": {
+          "free": true,
+          "value": 125.95
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-21",
+      "account_value": 588.44,
+      "bullets": {
+        "A": {
+          "free": true,
+          "value": 184.4
+        },
+        "B": {
+          "free": true,
+          "value": 152.4
+        },
+        "C": {
+          "free": true,
+          "value": 125.95
+        },
+        "D": {
+          "free": true,
+          "value": 125.95
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-22",
+      "account_value": 589.5,
+      "bullets": {
+        "A": {
+          "free": true,
+          "value": 184.4
+        },
+        "B": {
+          "free": true,
+          "value": 152.4
+        },
+        "C": {
+          "free": true,
+          "value": 126.75
+        },
+        "D": {
+          "free": true,
+          "value": 125.95
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-23",
+      "account_value": 589.5,
+      "bullets": {
+        "A": {
+          "free": true,
+          "value": 184.4
+        },
+        "B": {
+          "free": true,
+          "value": 152.4
+        },
+        "C": {
+          "free": true,
+          "value": 126.75
+        },
+        "D": {
+          "free": true,
+          "value": 125.95
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-24",
+      "account_value": 605.95,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 184.4
+        },
+        "B": {
+          "free": false,
+          "value": 152.4
+        },
+        "C": {
+          "free": true,
+          "value": 126.75
+        },
+        "D": {
+          "free": true,
+          "value": 125.95
+        }
+      },
+      "setups": 2
+    },
+    {
+      "date": "2026-04-27",
+      "account_value": 588.79,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 184.4
+        },
+        "B": {
+          "free": false,
+          "value": 152.4
+        },
+        "C": {
+          "free": false,
+          "value": 126.75
+        },
+        "D": {
+          "free": true,
+          "value": 125.95
+        }
+      },
+      "setups": 1
+    },
+    {
+      "date": "2026-04-28",
+      "account_value": 600.78,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 184.4
+        },
+        "B": {
+          "free": false,
+          "value": 152.4
+        },
+        "C": {
+          "free": false,
+          "value": 126.75
+        },
+        "D": {
+          "free": true,
+          "value": 125.95
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-29",
+      "account_value": 590.08,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 184.4
+        },
+        "B": {
+          "free": false,
+          "value": 152.4
+        },
+        "C": {
+          "free": false,
+          "value": 126.75
+        },
+        "D": {
+          "free": true,
+          "value": 125.95
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-04-30",
+      "account_value": 591.01,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 184.4
+        },
+        "B": {
+          "free": false,
+          "value": 152.4
+        },
+        "C": {
+          "free": false,
+          "value": 126.75
+        },
+        "D": {
+          "free": false,
+          "value": 125.95
+        }
+      },
+      "setups": 3
+    },
+    {
+      "date": "2026-05-01",
+      "account_value": 650.13,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 189.83
+        },
+        "B": {
+          "free": false,
+          "value": 145.01
+        },
+        "C": {
+          "free": false,
+          "value": 126.75
+        },
+        "D": {
+          "free": true,
+          "value": 138.54
+        }
+      },
+      "setups": 2
+    },
+    {
+      "date": "2026-05-04",
+      "account_value": 630.29,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 208.81
+        },
+        "B": {
+          "free": true,
+          "value": 145.01
+        },
+        "C": {
+          "free": true,
+          "value": 136.12
+        },
+        "D": {
+          "free": true,
+          "value": 138.54
+        }
+      },
+      "setups": 1
+    },
+    {
+      "date": "2026-05-05",
+      "account_value": 635.61,
+      "bullets": {
+        "A": {
+          "free": true,
+          "value": 208.81
+        },
+        "B": {
+          "free": true,
+          "value": 145.01
+        },
+        "C": {
+          "free": true,
+          "value": 136.12
+        },
+        "D": {
+          "free": true,
+          "value": 138.54
+        }
+      },
+      "setups": 0
+    },
+    {
+      "date": "2026-05-06",
+      "account_value": 675.16,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 229.7
+        },
+        "B": {
+          "free": false,
+          "value": 145.01
+        },
+        "C": {
+          "free": false,
+          "value": 136.12
+        },
+        "D": {
+          "free": false,
+          "value": 138.54
+        }
+      },
+      "setups": 4
+    },
+    {
+      "date": "2026-05-07",
+      "account_value": 758.13,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 229.7
+        },
+        "B": {
+          "free": false,
+          "value": 159.51
+        },
+        "C": {
+          "free": false,
+          "value": 136.12
+        },
+        "D": {
+          "free": false,
+          "value": 152.4
+        }
+      },
+      "setups": 6
+    },
+    {
+      "date": "2026-05-08",
+      "account_value": 712.59,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 229.7
+        },
+        "B": {
+          "free": false,
+          "value": 178.1
+        },
+        "C": {
+          "free": false,
+          "value": 149.73
+        },
+        "D": {
+          "free": false,
+          "value": 167.64
+        }
+      },
+      "setups": 3
+    },
+    {
+      "date": "2026-05-11",
+      "account_value": 712.59,
+      "bullets": {
+        "A": {
+          "free": false,
+          "value": 229.7
+        },
+        "B": {
+          "free": true,
+          "value": 178.1
+        },
+        "C": {
+          "free": true,
+          "value": 149.73
+        },
+        "D": {
+          "free": true,
+          "value": 167.64
+        }
+      },
+      "setups": 0
+    }
+  ]
+}

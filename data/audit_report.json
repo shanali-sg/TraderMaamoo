@@ -1,0 +1,2818 @@
+{
+  "reports": [
+    {
+      "generated": "2026-05-10",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "total_trades": 25,
+        "win_count": 14,
+        "loss_count": 11,
+        "win_rate": 56.0,
+        "expectancy": 0.522,
+        "avg_r": 0.52,
+        "avg_win_r": 1.75,
+        "avg_loss_r": -1.04,
+        "avg_win_dollar": 8.08,
+        "avg_loss_dollar": -4.86,
+        "profit_factor": 2.12,
+        "total_pnl": 59.71,
+        "final_capital": 517.71,
+        "growth_pct": 13.0,
+        "max_win_streak": 4,
+        "max_loss_streak": 3,
+        "max_drawdown_pct": -4.3,
+        "exit_reasons": {
+          "TARGET": 10,
+          "STOP": 7,
+          "EOD_FORCE": 6,
+          "STOP_GAP": 2
+        },
+        "sectors": {
+          "TECH": {
+            "trades": 10,
+            "pnl": 48.75,
+            "win_rate": 70.0,
+            "avg_r": 1.05
+          },
+          "FINANCIALS": {
+            "trades": 4,
+            "pnl": 9.48,
+            "win_rate": 50.0,
+            "avg_r": 0.5
+          },
+          "ENERGY": {
+            "trades": 5,
+            "pnl": -1.71,
+            "win_rate": 40.0,
+            "avg_r": -0.01
+          },
+          "CONSUMER": {
+            "trades": 1,
+            "pnl": -4.55,
+            "win_rate": 0.0,
+            "avg_r": -1.0
+          },
+          "ETF/MACRO": {
+            "trades": 4,
+            "pnl": 12.41,
+            "win_rate": 75.0,
+            "avg_r": 0.67
+          },
+          "HEALTHCARE": {
+            "trades": 1,
+            "pnl": -4.67,
+            "win_rate": 0.0,
+            "avg_r": -1.0
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.522,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.522,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 56.0,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 4.3,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 6,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-10",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 11,
+        "win_count": 8,
+        "loss_count": 3,
+        "win_rate": 72.7,
+        "expectancy": 0.721,
+        "avg_r": 0.72,
+        "avg_win_r": 1.29,
+        "avg_loss_r": -0.79,
+        "avg_win_dollar": 5.97,
+        "avg_loss_dollar": -3.63,
+        "profit_factor": 4.39,
+        "total_pnl": 36.9,
+        "final_capital": 494.9,
+        "growth_pct": 8.1,
+        "max_win_streak": 6,
+        "max_loss_streak": 2,
+        "max_drawdown_pct": -1.0,
+        "recovery_factor": 37.26,
+        "stop_gap_pct": 0.0,
+        "avg_hold_days": 8.4,
+        "exit_reasons": {
+          "EOD_FORCE": 5,
+          "TARGET": 4,
+          "STOP": 2
+        },
+        "sectors": {
+          "UNKNOWN": {
+            "trades": 11,
+            "pnl": 36.9,
+            "win_rate": 72.7,
+            "avg_r": 0.72
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.721,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.721,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 72.7,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 1.0,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 1,
+      "qualification": {
+        "min_20_trades": false,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": false
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 38,
+        "win_count": 23,
+        "loss_count": 15,
+        "win_rate": 60.5,
+        "expectancy": 0.51,
+        "avg_r": 0.51,
+        "avg_win_r": 1.4,
+        "avg_loss_r": -0.86,
+        "avg_win_dollar": 4.27,
+        "avg_loss_dollar": -2.62,
+        "profit_factor": 2.5,
+        "total_pnl": 58.91,
+        "final_capital": 516.91,
+        "growth_pct": 12.9,
+        "max_win_streak": 8,
+        "max_loss_streak": 7,
+        "max_drawdown_pct": -5.2,
+        "recovery_factor": 11.24,
+        "stop_gap_pct": 7.9,
+        "avg_hold_days": 5.9,
+        "exit_reasons": {
+          "EOD_FORCE": 12,
+          "TARGET": 12,
+          "STOP": 6,
+          "TIME_STOP": 5,
+          "STOP_GAP": 3
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 9,
+            "pnl": 2.22,
+            "win_rate": 44.4,
+            "avg_r": 0.03
+          },
+          "FINANCIALS": {
+            "trades": 9,
+            "pnl": 23.63,
+            "win_rate": 77.8,
+            "avg_r": 0.88
+          },
+          "BASIC_MATERIALS": {
+            "trades": 4,
+            "pnl": -13.85,
+            "win_rate": 0.0,
+            "avg_r": -1.11
+          },
+          "CONSUMER": {
+            "trades": 3,
+            "pnl": 2.83,
+            "win_rate": 66.7,
+            "avg_r": 0.34
+          },
+          "COMMUNICATION": {
+            "trades": 2,
+            "pnl": 3.1,
+            "win_rate": 50.0,
+            "avg_r": 0.5
+          },
+          "INDUSTRIALS": {
+            "trades": 5,
+            "pnl": 12.0,
+            "win_rate": 80.0,
+            "avg_r": 0.76
+          },
+          "TECH": {
+            "trades": 3,
+            "pnl": 18.09,
+            "win_rate": 100.0,
+            "avg_r": 2.0
+          },
+          "REAL_ESTATE": {
+            "trades": 3,
+            "pnl": 10.89,
+            "win_rate": 66.7,
+            "avg_r": 1.26
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.51,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.51,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 60.5,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 5.2,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 1,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 38,
+        "win_count": 23,
+        "loss_count": 15,
+        "win_rate": 60.5,
+        "expectancy": 0.51,
+        "avg_r": 0.51,
+        "avg_win_r": 1.4,
+        "avg_loss_r": -0.86,
+        "avg_win_dollar": 4.27,
+        "avg_loss_dollar": -2.62,
+        "profit_factor": 2.5,
+        "total_pnl": 58.91,
+        "final_capital": 516.91,
+        "growth_pct": 12.9,
+        "max_win_streak": 8,
+        "max_loss_streak": 7,
+        "max_drawdown_pct": -5.2,
+        "recovery_factor": 11.24,
+        "stop_gap_pct": 7.9,
+        "avg_hold_days": 5.9,
+        "exit_reasons": {
+          "EOD_FORCE": 12,
+          "TARGET": 12,
+          "STOP": 6,
+          "TIME_STOP": 5,
+          "STOP_GAP": 3
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 9,
+            "pnl": 2.22,
+            "win_rate": 44.4,
+            "avg_r": 0.03
+          },
+          "FINANCIALS": {
+            "trades": 9,
+            "pnl": 23.63,
+            "win_rate": 77.8,
+            "avg_r": 0.88
+          },
+          "BASIC_MATERIALS": {
+            "trades": 4,
+            "pnl": -13.85,
+            "win_rate": 0.0,
+            "avg_r": -1.11
+          },
+          "CONSUMER": {
+            "trades": 3,
+            "pnl": 2.83,
+            "win_rate": 66.7,
+            "avg_r": 0.34
+          },
+          "COMMUNICATION": {
+            "trades": 2,
+            "pnl": 3.1,
+            "win_rate": 50.0,
+            "avg_r": 0.5
+          },
+          "INDUSTRIALS": {
+            "trades": 5,
+            "pnl": 12.0,
+            "win_rate": 80.0,
+            "avg_r": 0.76
+          },
+          "TECH": {
+            "trades": 3,
+            "pnl": 18.09,
+            "win_rate": 100.0,
+            "avg_r": 2.0
+          },
+          "REAL_ESTATE": {
+            "trades": 3,
+            "pnl": 10.89,
+            "win_rate": 66.7,
+            "avg_r": 1.26
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.51,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.51,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 60.5,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 5.2,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 0,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 38,
+        "win_count": 23,
+        "loss_count": 15,
+        "win_rate": 60.5,
+        "expectancy": 0.51,
+        "avg_r": 0.51,
+        "avg_win_r": 1.4,
+        "avg_loss_r": -0.86,
+        "avg_win_dollar": 4.27,
+        "avg_loss_dollar": -2.62,
+        "profit_factor": 2.5,
+        "total_pnl": 58.91,
+        "final_capital": 516.91,
+        "growth_pct": 12.9,
+        "max_win_streak": 8,
+        "max_loss_streak": 7,
+        "max_drawdown_pct": -5.2,
+        "recovery_factor": 11.24,
+        "stop_gap_pct": 7.9,
+        "avg_hold_days": 5.9,
+        "exit_reasons": {
+          "EOD_FORCE": 12,
+          "TARGET": 12,
+          "STOP": 6,
+          "TIME_STOP": 5,
+          "STOP_GAP": 3
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 9,
+            "pnl": 2.22,
+            "win_rate": 44.4,
+            "avg_r": 0.03
+          },
+          "FINANCIALS": {
+            "trades": 9,
+            "pnl": 23.63,
+            "win_rate": 77.8,
+            "avg_r": 0.88
+          },
+          "BASIC_MATERIALS": {
+            "trades": 4,
+            "pnl": -13.85,
+            "win_rate": 0.0,
+            "avg_r": -1.11
+          },
+          "CONSUMER": {
+            "trades": 3,
+            "pnl": 2.83,
+            "win_rate": 66.7,
+            "avg_r": 0.34
+          },
+          "COMMUNICATION": {
+            "trades": 2,
+            "pnl": 3.1,
+            "win_rate": 50.0,
+            "avg_r": 0.5
+          },
+          "INDUSTRIALS": {
+            "trades": 5,
+            "pnl": 12.0,
+            "win_rate": 80.0,
+            "avg_r": 0.76
+          },
+          "TECH": {
+            "trades": 3,
+            "pnl": 18.09,
+            "win_rate": 100.0,
+            "avg_r": 2.0
+          },
+          "REAL_ESTATE": {
+            "trades": 3,
+            "pnl": 10.89,
+            "win_rate": 66.7,
+            "avg_r": 1.26
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.51,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.51,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 60.5,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 5.2,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 0,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 38,
+        "win_count": 23,
+        "loss_count": 15,
+        "win_rate": 60.5,
+        "expectancy": 0.51,
+        "avg_r": 0.51,
+        "avg_win_r": 1.4,
+        "avg_loss_r": -0.86,
+        "avg_win_dollar": 4.27,
+        "avg_loss_dollar": -2.62,
+        "profit_factor": 2.5,
+        "total_pnl": 58.91,
+        "final_capital": 516.91,
+        "growth_pct": 12.9,
+        "max_win_streak": 8,
+        "max_loss_streak": 7,
+        "max_drawdown_pct": -5.2,
+        "recovery_factor": 11.24,
+        "stop_gap_pct": 7.9,
+        "avg_hold_days": 5.9,
+        "exit_reasons": {
+          "EOD_FORCE": 12,
+          "TARGET": 12,
+          "STOP": 6,
+          "TIME_STOP": 5,
+          "STOP_GAP": 3
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 9,
+            "pnl": 2.22,
+            "win_rate": 44.4,
+            "avg_r": 0.03
+          },
+          "FINANCIALS": {
+            "trades": 9,
+            "pnl": 23.63,
+            "win_rate": 77.8,
+            "avg_r": 0.88
+          },
+          "BASIC_MATERIALS": {
+            "trades": 4,
+            "pnl": -13.85,
+            "win_rate": 0.0,
+            "avg_r": -1.11
+          },
+          "CONSUMER": {
+            "trades": 3,
+            "pnl": 2.83,
+            "win_rate": 66.7,
+            "avg_r": 0.34
+          },
+          "COMMUNICATION": {
+            "trades": 2,
+            "pnl": 3.1,
+            "win_rate": 50.0,
+            "avg_r": 0.5
+          },
+          "INDUSTRIALS": {
+            "trades": 5,
+            "pnl": 12.0,
+            "win_rate": 80.0,
+            "avg_r": 0.76
+          },
+          "TECH": {
+            "trades": 3,
+            "pnl": 18.09,
+            "win_rate": 100.0,
+            "avg_r": 2.0
+          },
+          "REAL_ESTATE": {
+            "trades": 3,
+            "pnl": 10.89,
+            "win_rate": 66.7,
+            "avg_r": 1.26
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.51,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.51,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 60.5,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 5.2,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 1,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 38,
+        "win_count": 23,
+        "loss_count": 15,
+        "win_rate": 60.5,
+        "expectancy": 0.51,
+        "avg_r": 0.51,
+        "avg_win_r": 1.4,
+        "avg_loss_r": -0.86,
+        "avg_win_dollar": 4.27,
+        "avg_loss_dollar": -2.62,
+        "profit_factor": 2.5,
+        "total_pnl": 58.91,
+        "final_capital": 516.91,
+        "growth_pct": 12.9,
+        "max_win_streak": 8,
+        "max_loss_streak": 7,
+        "max_drawdown_pct": -5.2,
+        "recovery_factor": 11.24,
+        "stop_gap_pct": 7.9,
+        "avg_hold_days": 5.9,
+        "exit_reasons": {
+          "EOD_FORCE": 12,
+          "TARGET": 12,
+          "STOP": 6,
+          "TIME_STOP": 5,
+          "STOP_GAP": 3
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 9,
+            "pnl": 2.22,
+            "win_rate": 44.4,
+            "avg_r": 0.03
+          },
+          "FINANCIALS": {
+            "trades": 9,
+            "pnl": 23.63,
+            "win_rate": 77.8,
+            "avg_r": 0.88
+          },
+          "BASIC_MATERIALS": {
+            "trades": 4,
+            "pnl": -13.85,
+            "win_rate": 0.0,
+            "avg_r": -1.11
+          },
+          "CONSUMER": {
+            "trades": 3,
+            "pnl": 2.83,
+            "win_rate": 66.7,
+            "avg_r": 0.34
+          },
+          "COMMUNICATION": {
+            "trades": 2,
+            "pnl": 3.1,
+            "win_rate": 50.0,
+            "avg_r": 0.5
+          },
+          "INDUSTRIALS": {
+            "trades": 5,
+            "pnl": 12.0,
+            "win_rate": 80.0,
+            "avg_r": 0.76
+          },
+          "TECH": {
+            "trades": 3,
+            "pnl": 18.09,
+            "win_rate": 100.0,
+            "avg_r": 2.0
+          },
+          "REAL_ESTATE": {
+            "trades": 3,
+            "pnl": 10.89,
+            "win_rate": 66.7,
+            "avg_r": 1.26
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.51,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.51,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 60.5,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 5.2,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 1,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 38,
+        "win_count": 23,
+        "loss_count": 15,
+        "win_rate": 60.5,
+        "expectancy": 0.51,
+        "avg_r": 0.51,
+        "avg_win_r": 1.4,
+        "avg_loss_r": -0.86,
+        "avg_win_dollar": 4.27,
+        "avg_loss_dollar": -2.62,
+        "profit_factor": 2.5,
+        "total_pnl": 58.91,
+        "final_capital": 516.91,
+        "growth_pct": 12.9,
+        "max_win_streak": 8,
+        "max_loss_streak": 7,
+        "max_drawdown_pct": -5.2,
+        "recovery_factor": 11.24,
+        "stop_gap_pct": 7.9,
+        "avg_hold_days": 5.9,
+        "exit_reasons": {
+          "EOD_FORCE": 12,
+          "TARGET": 12,
+          "STOP": 6,
+          "TIME_STOP": 5,
+          "STOP_GAP": 3
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 9,
+            "pnl": 2.22,
+            "win_rate": 44.4,
+            "avg_r": 0.03
+          },
+          "FINANCIALS": {
+            "trades": 9,
+            "pnl": 23.63,
+            "win_rate": 77.8,
+            "avg_r": 0.88
+          },
+          "BASIC_MATERIALS": {
+            "trades": 4,
+            "pnl": -13.85,
+            "win_rate": 0.0,
+            "avg_r": -1.11
+          },
+          "CONSUMER": {
+            "trades": 3,
+            "pnl": 2.83,
+            "win_rate": 66.7,
+            "avg_r": 0.34
+          },
+          "COMMUNICATION": {
+            "trades": 2,
+            "pnl": 3.1,
+            "win_rate": 50.0,
+            "avg_r": 0.5
+          },
+          "INDUSTRIALS": {
+            "trades": 5,
+            "pnl": 12.0,
+            "win_rate": 80.0,
+            "avg_r": 0.76
+          },
+          "TECH": {
+            "trades": 3,
+            "pnl": 18.09,
+            "win_rate": 100.0,
+            "avg_r": 2.0
+          },
+          "REAL_ESTATE": {
+            "trades": 3,
+            "pnl": 10.89,
+            "win_rate": 66.7,
+            "avg_r": 1.26
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.51,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.51,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 60.5,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 5.2,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 1,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 36,
+        "win_count": 24,
+        "loss_count": 12,
+        "win_rate": 66.7,
+        "expectancy": 0.49,
+        "avg_r": 0.49,
+        "avg_win_r": 1.26,
+        "avg_loss_r": -1.06,
+        "avg_win_dollar": 3.82,
+        "avg_loss_dollar": -3.21,
+        "profit_factor": 2.38,
+        "total_pnl": 53.18,
+        "final_capital": 511.18,
+        "growth_pct": 11.6,
+        "max_win_streak": 13,
+        "max_loss_streak": 4,
+        "max_drawdown_pct": -3.0,
+        "recovery_factor": 17.78,
+        "stop_gap_pct": 8.3,
+        "avg_hold_days": 6.2,
+        "exit_reasons": {
+          "EOD_FORCE": 11,
+          "TARGET": 11,
+          "STOP": 7,
+          "TIME_STOP": 4,
+          "STOP_GAP": 3
+        },
+        "sectors": {
+          "UNKNOWN": {
+            "trades": 22,
+            "pnl": 44.86,
+            "win_rate": 72.7,
+            "avg_r": 0.68
+          },
+          "FINANCIALS": {
+            "trades": 4,
+            "pnl": 6.75,
+            "win_rate": 75.0,
+            "avg_r": 0.57
+          },
+          "HEALTHCARE": {
+            "trades": 3,
+            "pnl": -2.67,
+            "win_rate": 33.3,
+            "avg_r": -0.3
+          },
+          "ETF/MACRO": {
+            "trades": 1,
+            "pnl": -2.86,
+            "win_rate": 0.0,
+            "avg_r": -1.0
+          },
+          "CONSUMER": {
+            "trades": 4,
+            "pnl": -0.11,
+            "win_rate": 50.0,
+            "avg_r": 0.02
+          },
+          "REAL_ESTATE": {
+            "trades": 1,
+            "pnl": 6.36,
+            "win_rate": 100.0,
+            "avg_r": 2.0
+          },
+          "TECH": {
+            "trades": 1,
+            "pnl": 0.85,
+            "win_rate": 100.0,
+            "avg_r": 0.25
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.49,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.49,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 66.7,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 3.0,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 2,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 36,
+        "win_count": 24,
+        "loss_count": 12,
+        "win_rate": 66.7,
+        "expectancy": 0.49,
+        "avg_r": 0.49,
+        "avg_win_r": 1.26,
+        "avg_loss_r": -1.06,
+        "avg_win_dollar": 3.82,
+        "avg_loss_dollar": -3.21,
+        "profit_factor": 2.38,
+        "total_pnl": 53.18,
+        "final_capital": 511.18,
+        "growth_pct": 11.6,
+        "max_win_streak": 13,
+        "max_loss_streak": 4,
+        "max_drawdown_pct": -3.0,
+        "recovery_factor": 17.78,
+        "stop_gap_pct": 8.3,
+        "avg_hold_days": 6.2,
+        "exit_reasons": {
+          "EOD_FORCE": 11,
+          "TARGET": 11,
+          "STOP": 7,
+          "TIME_STOP": 4,
+          "STOP_GAP": 3
+        },
+        "sectors": {
+          "UNKNOWN": {
+            "trades": 23,
+            "pnl": 42.0,
+            "win_rate": 69.6,
+            "avg_r": 0.61
+          },
+          "FINANCIALS": {
+            "trades": 4,
+            "pnl": 6.75,
+            "win_rate": 75.0,
+            "avg_r": 0.57
+          },
+          "HEALTHCARE": {
+            "trades": 3,
+            "pnl": -2.67,
+            "win_rate": 33.3,
+            "avg_r": -0.3
+          },
+          "CONSUMER": {
+            "trades": 4,
+            "pnl": -0.11,
+            "win_rate": 50.0,
+            "avg_r": 0.02
+          },
+          "REAL_ESTATE": {
+            "trades": 1,
+            "pnl": 6.36,
+            "win_rate": 100.0,
+            "avg_r": 2.0
+          },
+          "TECH": {
+            "trades": 1,
+            "pnl": 0.85,
+            "win_rate": 100.0,
+            "avg_r": 0.25
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.49,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.49,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 66.7,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 3.0,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 2,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 36,
+        "win_count": 24,
+        "loss_count": 12,
+        "win_rate": 66.7,
+        "expectancy": 0.49,
+        "avg_r": 0.49,
+        "avg_win_r": 1.26,
+        "avg_loss_r": -1.06,
+        "avg_win_dollar": 3.82,
+        "avg_loss_dollar": -3.21,
+        "profit_factor": 2.38,
+        "total_pnl": 53.18,
+        "final_capital": 511.18,
+        "growth_pct": 11.6,
+        "max_win_streak": 13,
+        "max_loss_streak": 4,
+        "max_drawdown_pct": -3.0,
+        "recovery_factor": 17.78,
+        "stop_gap_pct": 8.3,
+        "avg_hold_days": 6.2,
+        "exit_reasons": {
+          "EOD_FORCE": 11,
+          "TARGET": 11,
+          "STOP": 7,
+          "TIME_STOP": 4,
+          "STOP_GAP": 3
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 5,
+            "pnl": -4.78,
+            "win_rate": 40.0,
+            "avg_r": -0.33
+          },
+          "FINANCIALS": {
+            "trades": 15,
+            "pnl": 22.81,
+            "win_rate": 60.0,
+            "avg_r": 0.54
+          },
+          "TECH": {
+            "trades": 5,
+            "pnl": 7.38,
+            "win_rate": 80.0,
+            "avg_r": 0.44
+          },
+          "CONSUMER": {
+            "trades": 5,
+            "pnl": 6.13,
+            "win_rate": 60.0,
+            "avg_r": 0.42
+          },
+          "REAL_ESTATE": {
+            "trades": 2,
+            "pnl": 12.36,
+            "win_rate": 100.0,
+            "avg_r": 2.0
+          },
+          "INDUSTRIALS": {
+            "trades": 2,
+            "pnl": 2.39,
+            "win_rate": 100.0,
+            "avg_r": 0.4
+          },
+          "BASIC_MATERIALS": {
+            "trades": 1,
+            "pnl": 6.39,
+            "win_rate": 100.0,
+            "avg_r": 2.0
+          },
+          "UTILITIES": {
+            "trades": 1,
+            "pnl": 0.5,
+            "win_rate": 100.0,
+            "avg_r": 0.15
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.49,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.49,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 66.7,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 3.0,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 2,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 166,
+        "win_count": 109,
+        "loss_count": 57,
+        "win_rate": 65.7,
+        "expectancy": 0.624,
+        "avg_r": 0.62,
+        "avg_win_r": 1.41,
+        "avg_loss_r": -0.89,
+        "avg_win_dollar": 0.32,
+        "avg_loss_dollar": -0.2,
+        "profit_factor": 3.07,
+        "total_pnl": 23.69,
+        "final_capital": 481.69,
+        "growth_pct": 5.2,
+        "max_win_streak": 16,
+        "max_loss_streak": 7,
+        "max_drawdown_pct": -0.4,
+        "recovery_factor": 53.93,
+        "stop_gap_pct": 5.4,
+        "avg_hold_days": 7.1,
+        "exit_reasons": {
+          "TARGET": 56,
+          "EOD_FORCE": 39,
+          "STOP": 32,
+          "TIME_STOP": 30,
+          "STOP_GAP": 9
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 23,
+            "pnl": 1.63,
+            "win_rate": 43.5,
+            "avg_r": 0.3
+          },
+          "FINANCIALS": {
+            "trades": 79,
+            "pnl": 12.58,
+            "win_rate": 69.6,
+            "avg_r": 0.7
+          },
+          "TECH": {
+            "trades": 25,
+            "pnl": 6.3,
+            "win_rate": 80.0,
+            "avg_r": 1.1
+          },
+          "CONSUMER": {
+            "trades": 20,
+            "pnl": -0.56,
+            "win_rate": 50.0,
+            "avg_r": -0.11
+          },
+          "INDUSTRIALS": {
+            "trades": 6,
+            "pnl": 1.86,
+            "win_rate": 100.0,
+            "avg_r": 1.31
+          },
+          "ENERGY": {
+            "trades": 3,
+            "pnl": 0.18,
+            "win_rate": 33.3,
+            "avg_r": 0.26
+          },
+          "REAL_ESTATE": {
+            "trades": 4,
+            "pnl": 1.69,
+            "win_rate": 100.0,
+            "avg_r": 1.81
+          },
+          "BASIC_MATERIALS": {
+            "trades": 3,
+            "pnl": 0.37,
+            "win_rate": 66.7,
+            "avg_r": 0.55
+          },
+          "UTILITIES": {
+            "trades": 3,
+            "pnl": -0.36,
+            "win_rate": 33.3,
+            "avg_r": -0.48
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.624,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.624,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 65.7,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 0.4,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 0,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 166,
+        "win_count": 109,
+        "loss_count": 57,
+        "win_rate": 65.7,
+        "expectancy": 0.624,
+        "avg_r": 0.62,
+        "avg_win_r": 1.41,
+        "avg_loss_r": -0.89,
+        "avg_win_dollar": 0.32,
+        "avg_loss_dollar": -0.2,
+        "profit_factor": 3.07,
+        "total_pnl": 23.69,
+        "final_capital": 481.69,
+        "growth_pct": 5.2,
+        "max_win_streak": 16,
+        "max_loss_streak": 7,
+        "max_drawdown_pct": -0.4,
+        "recovery_factor": 53.93,
+        "stop_gap_pct": 5.4,
+        "avg_hold_days": 7.1,
+        "exit_reasons": {
+          "TARGET": 56,
+          "EOD_FORCE": 39,
+          "STOP": 32,
+          "TIME_STOP": 30,
+          "STOP_GAP": 9
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 23,
+            "pnl": 1.63,
+            "win_rate": 43.5,
+            "avg_r": 0.3
+          },
+          "FINANCIALS": {
+            "trades": 79,
+            "pnl": 12.58,
+            "win_rate": 69.6,
+            "avg_r": 0.7
+          },
+          "TECH": {
+            "trades": 25,
+            "pnl": 6.3,
+            "win_rate": 80.0,
+            "avg_r": 1.1
+          },
+          "CONSUMER": {
+            "trades": 20,
+            "pnl": -0.56,
+            "win_rate": 50.0,
+            "avg_r": -0.11
+          },
+          "INDUSTRIALS": {
+            "trades": 6,
+            "pnl": 1.86,
+            "win_rate": 100.0,
+            "avg_r": 1.31
+          },
+          "ENERGY": {
+            "trades": 3,
+            "pnl": 0.18,
+            "win_rate": 33.3,
+            "avg_r": 0.26
+          },
+          "REAL_ESTATE": {
+            "trades": 4,
+            "pnl": 1.69,
+            "win_rate": 100.0,
+            "avg_r": 1.81
+          },
+          "BASIC_MATERIALS": {
+            "trades": 3,
+            "pnl": 0.37,
+            "win_rate": 66.7,
+            "avg_r": 0.55
+          },
+          "UTILITIES": {
+            "trades": 3,
+            "pnl": -0.36,
+            "win_rate": 33.3,
+            "avg_r": -0.48
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.624,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.624,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 65.7,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 0.4,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 0,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 36,
+        "win_count": 24,
+        "loss_count": 12,
+        "win_rate": 66.7,
+        "expectancy": 0.49,
+        "avg_r": 0.49,
+        "avg_win_r": 1.26,
+        "avg_loss_r": -1.06,
+        "avg_win_dollar": 3.82,
+        "avg_loss_dollar": -3.21,
+        "profit_factor": 2.38,
+        "total_pnl": 53.18,
+        "final_capital": 511.18,
+        "growth_pct": 11.6,
+        "max_win_streak": 13,
+        "max_loss_streak": 4,
+        "max_drawdown_pct": -3.0,
+        "recovery_factor": 17.78,
+        "stop_gap_pct": 8.3,
+        "avg_hold_days": 6.2,
+        "exit_reasons": {
+          "EOD_FORCE": 11,
+          "TARGET": 11,
+          "STOP": 7,
+          "TIME_STOP": 4,
+          "STOP_GAP": 3
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 5,
+            "pnl": -4.78,
+            "win_rate": 40.0,
+            "avg_r": -0.33
+          },
+          "FINANCIALS": {
+            "trades": 15,
+            "pnl": 22.81,
+            "win_rate": 60.0,
+            "avg_r": 0.54
+          },
+          "TECH": {
+            "trades": 5,
+            "pnl": 7.38,
+            "win_rate": 80.0,
+            "avg_r": 0.44
+          },
+          "CONSUMER": {
+            "trades": 5,
+            "pnl": 6.13,
+            "win_rate": 60.0,
+            "avg_r": 0.42
+          },
+          "REAL_ESTATE": {
+            "trades": 2,
+            "pnl": 12.36,
+            "win_rate": 100.0,
+            "avg_r": 2.0
+          },
+          "INDUSTRIALS": {
+            "trades": 2,
+            "pnl": 2.39,
+            "win_rate": 100.0,
+            "avg_r": 0.4
+          },
+          "BASIC_MATERIALS": {
+            "trades": 1,
+            "pnl": 6.39,
+            "win_rate": 100.0,
+            "avg_r": 2.0
+          },
+          "UTILITIES": {
+            "trades": 1,
+            "pnl": 0.5,
+            "win_rate": 100.0,
+            "avg_r": 0.15
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.49,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.49,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 66.7,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 3.0,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 2,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 166,
+        "win_count": 109,
+        "loss_count": 57,
+        "win_rate": 65.7,
+        "expectancy": 0.624,
+        "avg_r": 0.62,
+        "avg_win_r": 1.41,
+        "avg_loss_r": -0.89,
+        "avg_win_dollar": 0.32,
+        "avg_loss_dollar": -0.2,
+        "profit_factor": 3.07,
+        "total_pnl": 23.69,
+        "final_capital": 481.69,
+        "growth_pct": 5.2,
+        "max_win_streak": 16,
+        "max_loss_streak": 7,
+        "max_drawdown_pct": -0.4,
+        "recovery_factor": 53.93,
+        "stop_gap_pct": 5.4,
+        "avg_hold_days": 7.1,
+        "exit_reasons": {
+          "TARGET": 56,
+          "EOD_FORCE": 39,
+          "STOP": 32,
+          "TIME_STOP": 30,
+          "STOP_GAP": 9
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 23,
+            "pnl": 1.63,
+            "win_rate": 43.5,
+            "avg_r": 0.3
+          },
+          "FINANCIALS": {
+            "trades": 79,
+            "pnl": 12.58,
+            "win_rate": 69.6,
+            "avg_r": 0.7
+          },
+          "TECH": {
+            "trades": 25,
+            "pnl": 6.3,
+            "win_rate": 80.0,
+            "avg_r": 1.1
+          },
+          "CONSUMER": {
+            "trades": 20,
+            "pnl": -0.56,
+            "win_rate": 50.0,
+            "avg_r": -0.11
+          },
+          "INDUSTRIALS": {
+            "trades": 6,
+            "pnl": 1.86,
+            "win_rate": 100.0,
+            "avg_r": 1.31
+          },
+          "ENERGY": {
+            "trades": 3,
+            "pnl": 0.18,
+            "win_rate": 33.3,
+            "avg_r": 0.26
+          },
+          "REAL_ESTATE": {
+            "trades": 4,
+            "pnl": 1.69,
+            "win_rate": 100.0,
+            "avg_r": 1.81
+          },
+          "BASIC_MATERIALS": {
+            "trades": 3,
+            "pnl": 0.37,
+            "win_rate": 66.7,
+            "avg_r": 0.55
+          },
+          "UTILITIES": {
+            "trades": 3,
+            "pnl": -0.36,
+            "win_rate": 33.3,
+            "avg_r": -0.48
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.624,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.624,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 65.7,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 0.4,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 0,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 58,
+        "win_count": 43,
+        "loss_count": 15,
+        "win_rate": 74.1,
+        "expectancy": 0.588,
+        "avg_r": 0.59,
+        "avg_win_r": 1.1,
+        "avg_loss_r": -0.88,
+        "avg_win_dollar": 3.6,
+        "avg_loss_dollar": -2.84,
+        "profit_factor": 3.63,
+        "total_pnl": 112.1,
+        "final_capital": 570.1,
+        "growth_pct": 24.5,
+        "max_win_streak": 11,
+        "max_loss_streak": 3,
+        "max_drawdown_pct": -1.9,
+        "recovery_factor": 58.83,
+        "stop_gap_pct": 0.0,
+        "avg_hold_days": 5.1,
+        "exit_reasons": {
+          "TIME_EXIT": 35,
+          "TARGET": 14,
+          "EOD_FORCE": 9
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 8,
+            "pnl": -5.24,
+            "win_rate": 50.0,
+            "avg_r": -0.23
+          },
+          "TECH": {
+            "trades": 8,
+            "pnl": 31.08,
+            "win_rate": 100.0,
+            "avg_r": 1.18
+          },
+          "FINANCIALS": {
+            "trades": 24,
+            "pnl": 63.32,
+            "win_rate": 79.2,
+            "avg_r": 0.82
+          },
+          "ENERGY": {
+            "trades": 1,
+            "pnl": -0.77,
+            "win_rate": 0.0,
+            "avg_r": -0.25
+          },
+          "CONSUMER": {
+            "trades": 10,
+            "pnl": 3.7,
+            "win_rate": 60.0,
+            "avg_r": 0.17
+          },
+          "REAL_ESTATE": {
+            "trades": 2,
+            "pnl": 3.49,
+            "win_rate": 50.0,
+            "avg_r": 0.55
+          },
+          "INDUSTRIALS": {
+            "trades": 3,
+            "pnl": 7.74,
+            "win_rate": 100.0,
+            "avg_r": 0.71
+          },
+          "BASIC_MATERIALS": {
+            "trades": 1,
+            "pnl": 8.14,
+            "win_rate": 100.0,
+            "avg_r": 2.0
+          },
+          "UTILITIES": {
+            "trades": 1,
+            "pnl": 0.64,
+            "win_rate": 100.0,
+            "avg_r": 0.15
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.588,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.588,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 74.1,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 1.9,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 7,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 173,
+        "win_count": 130,
+        "loss_count": 43,
+        "win_rate": 75.1,
+        "expectancy": 0.692,
+        "avg_r": 0.69,
+        "avg_win_r": 1.2,
+        "avg_loss_r": -0.84,
+        "avg_win_dollar": 0.28,
+        "avg_loss_dollar": -0.2,
+        "profit_factor": 4.21,
+        "total_pnl": 27.41,
+        "final_capital": 485.41,
+        "growth_pct": 6.0,
+        "max_win_streak": 14,
+        "max_loss_streak": 4,
+        "max_drawdown_pct": -0.5,
+        "recovery_factor": 52.32,
+        "stop_gap_pct": 0.0,
+        "avg_hold_days": 5.8,
+        "exit_reasons": {
+          "TIME_EXIT": 121,
+          "TARGET": 35,
+          "EOD_FORCE": 17
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 24,
+            "pnl": 1.36,
+            "win_rate": 45.8,
+            "avg_r": 0.24
+          },
+          "TECH": {
+            "trades": 24,
+            "pnl": 8.45,
+            "win_rate": 95.8,
+            "avg_r": 1.54
+          },
+          "CONSUMER": {
+            "trades": 23,
+            "pnl": -0.48,
+            "win_rate": 56.5,
+            "avg_r": -0.06
+          },
+          "FINANCIALS": {
+            "trades": 82,
+            "pnl": 14.25,
+            "win_rate": 82.9,
+            "avg_r": 0.76
+          },
+          "ENERGY": {
+            "trades": 4,
+            "pnl": 0.23,
+            "win_rate": 50.0,
+            "avg_r": 0.27
+          },
+          "INDUSTRIALS": {
+            "trades": 7,
+            "pnl": 1.9,
+            "win_rate": 100.0,
+            "avg_r": 1.16
+          },
+          "BASIC_MATERIALS": {
+            "trades": 2,
+            "pnl": 0.44,
+            "win_rate": 50.0,
+            "avg_r": 0.89
+          },
+          "REAL_ESTATE": {
+            "trades": 4,
+            "pnl": 0.9,
+            "win_rate": 75.0,
+            "avg_r": 0.97
+          },
+          "UTILITIES": {
+            "trades": 3,
+            "pnl": 0.36,
+            "win_rate": 66.7,
+            "avg_r": 0.52
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.692,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.692,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 75.1,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 0.5,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 0,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 19,
+        "win_count": 15,
+        "loss_count": 4,
+        "win_rate": 78.9,
+        "expectancy": 0.963,
+        "avg_r": 0.96,
+        "avg_win_r": 1.44,
+        "avg_loss_r": -0.83,
+        "avg_win_dollar": 14.52,
+        "avg_loss_dollar": -7.74,
+        "profit_factor": 7.03,
+        "total_pnl": 186.81,
+        "final_capital": 644.81,
+        "growth_pct": 40.8,
+        "max_win_streak": 11,
+        "max_loss_streak": 2,
+        "max_drawdown_pct": -3.1,
+        "recovery_factor": 61.14,
+        "stop_gap_pct": 0.0,
+        "avg_hold_days": 5.5,
+        "exit_reasons": {
+          "TIME_EXIT": 12,
+          "EOD_FORCE": 4,
+          "TARGET": 3
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 2,
+            "pnl": -2.07,
+            "win_rate": 50.0,
+            "avg_r": -0.17
+          },
+          "FINANCIALS": {
+            "trades": 8,
+            "pnl": 93.38,
+            "win_rate": 87.5,
+            "avg_r": 1.16
+          },
+          "TECH": {
+            "trades": 3,
+            "pnl": 60.85,
+            "win_rate": 100.0,
+            "avg_r": 2.1
+          },
+          "REAL_ESTATE": {
+            "trades": 1,
+            "pnl": -7.05,
+            "win_rate": 0.0,
+            "avg_r": -0.76
+          },
+          "CONSUMER": {
+            "trades": 2,
+            "pnl": -0.27,
+            "win_rate": 50.0,
+            "avg_r": -0.02
+          },
+          "INDUSTRIALS": {
+            "trades": 1,
+            "pnl": 7.14,
+            "win_rate": 100.0,
+            "avg_r": 0.73
+          },
+          "BASIC_MATERIALS": {
+            "trades": 1,
+            "pnl": 33.06,
+            "win_rate": 100.0,
+            "avg_r": 3.0
+          },
+          "UTILITIES": {
+            "trades": 1,
+            "pnl": 1.77,
+            "win_rate": 100.0,
+            "avg_r": 0.15
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 0.963,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 0.963,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 78.9,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 3.1,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 0,
+      "qualification": {
+        "min_20_trades": false,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": false
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 58,
+        "win_count": 52,
+        "loss_count": 6,
+        "win_rate": 89.7,
+        "expectancy": 3.158,
+        "avg_r": 3.16,
+        "avg_win_r": 3.71,
+        "avg_loss_r": -1.62,
+        "avg_win_dollar": 9.87,
+        "avg_loss_dollar": -4.21,
+        "profit_factor": 20.32,
+        "total_pnl": 488.2,
+        "final_capital": 946.2,
+        "growth_pct": 106.6,
+        "max_win_streak": 18,
+        "max_loss_streak": 2,
+        "max_drawdown_pct": -1.2,
+        "recovery_factor": 398.8,
+        "stop_gap_pct": 0.0,
+        "avg_hold_days": 3.1,
+        "exit_reasons": {
+          "TARGET": 38,
+          "TIME_EXIT": 14,
+          "EOD_FORCE": 6
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 16,
+            "pnl": 133.91,
+            "win_rate": 81.2,
+            "avg_r": 2.97
+          },
+          "TECH": {
+            "trades": 14,
+            "pnl": 141.83,
+            "win_rate": 92.9,
+            "avg_r": 3.67
+          },
+          "FINANCIALS": {
+            "trades": 14,
+            "pnl": 112.97,
+            "win_rate": 100.0,
+            "avg_r": 3.39
+          },
+          "INDUSTRIALS": {
+            "trades": 3,
+            "pnl": 34.41,
+            "win_rate": 100.0,
+            "avg_r": 4.0
+          },
+          "ENERGY": {
+            "trades": 2,
+            "pnl": 0.15,
+            "win_rate": 50.0,
+            "avg_r": -0.01
+          },
+          "CONSUMER": {
+            "trades": 8,
+            "pnl": 60.59,
+            "win_rate": 87.5,
+            "avg_r": 2.97
+          },
+          "UTILITIES": {
+            "trades": 1,
+            "pnl": 4.34,
+            "win_rate": 100.0,
+            "avg_r": 1.09
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 3.158,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 3.158,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 89.7,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 1.2,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 14,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 55,
+        "win_count": 49,
+        "loss_count": 6,
+        "win_rate": 89.1,
+        "expectancy": 3.117,
+        "avg_r": 3.12,
+        "avg_win_r": 3.7,
+        "avg_loss_r": -1.62,
+        "avg_win_dollar": 12.53,
+        "avg_loss_dollar": -5.26,
+        "profit_factor": 19.45,
+        "total_pnl": 582.55,
+        "final_capital": 1040.55,
+        "growth_pct": 127.2,
+        "max_win_streak": 17,
+        "max_loss_streak": 2,
+        "max_drawdown_pct": -1.5,
+        "recovery_factor": 395.58,
+        "stop_gap_pct": 0.0,
+        "avg_hold_days": 3.0,
+        "exit_reasons": {
+          "TARGET": 35,
+          "TIME_EXIT": 14,
+          "EOD_FORCE": 6
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 16,
+            "pnl": 162.88,
+            "win_rate": 81.2,
+            "avg_r": 2.75
+          },
+          "TECH": {
+            "trades": 13,
+            "pnl": 176.99,
+            "win_rate": 92.3,
+            "avg_r": 3.94
+          },
+          "FINANCIALS": {
+            "trades": 13,
+            "pnl": 129.94,
+            "win_rate": 100.0,
+            "avg_r": 3.34
+          },
+          "INDUSTRIALS": {
+            "trades": 3,
+            "pnl": 43.02,
+            "win_rate": 100.0,
+            "avg_r": 4.0
+          },
+          "ENERGY": {
+            "trades": 2,
+            "pnl": 0.18,
+            "win_rate": 50.0,
+            "avg_r": -0.01
+          },
+          "CONSUMER": {
+            "trades": 7,
+            "pnl": 64.49,
+            "win_rate": 85.7,
+            "avg_r": 2.83
+          },
+          "UTILITIES": {
+            "trades": 1,
+            "pnl": 5.05,
+            "win_rate": 100.0,
+            "avg_r": 1.09
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 3.117,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 3.117,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 89.1,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 1.5,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 14,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-08",
+        "starting_capital": 458.0,
+        "total_trades": 55,
+        "win_count": 49,
+        "loss_count": 6,
+        "win_rate": 89.1,
+        "expectancy": 3.117,
+        "avg_r": 3.12,
+        "avg_win_r": 3.7,
+        "avg_loss_r": -1.62,
+        "avg_win_dollar": 12.53,
+        "avg_loss_dollar": -5.26,
+        "profit_factor": 19.45,
+        "total_pnl": 582.55,
+        "final_capital": 1040.55,
+        "growth_pct": 127.2,
+        "max_win_streak": 17,
+        "max_loss_streak": 2,
+        "max_drawdown_pct": -1.5,
+        "recovery_factor": 395.58,
+        "stop_gap_pct": 0.0,
+        "avg_hold_days": 3.0,
+        "exit_reasons": {
+          "TARGET": 35,
+          "TIME_EXIT": 14,
+          "EOD_FORCE": 6
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 16,
+            "pnl": 162.88,
+            "win_rate": 81.2,
+            "avg_r": 2.75
+          },
+          "TECH": {
+            "trades": 13,
+            "pnl": 176.99,
+            "win_rate": 92.3,
+            "avg_r": 3.94
+          },
+          "FINANCIALS": {
+            "trades": 13,
+            "pnl": 129.94,
+            "win_rate": 100.0,
+            "avg_r": 3.34
+          },
+          "INDUSTRIALS": {
+            "trades": 3,
+            "pnl": 43.02,
+            "win_rate": 100.0,
+            "avg_r": 4.0
+          },
+          "ENERGY": {
+            "trades": 2,
+            "pnl": 0.18,
+            "win_rate": 50.0,
+            "avg_r": -0.01
+          },
+          "CONSUMER": {
+            "trades": 7,
+            "pnl": 64.49,
+            "win_rate": 85.7,
+            "avg_r": 2.83
+          },
+          "UTILITIES": {
+            "trades": 1,
+            "pnl": 5.05,
+            "win_rate": 100.0,
+            "avg_r": 1.09
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 3.117,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 3.117,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 89.1,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 1.5,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 14,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-11",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-11",
+        "starting_capital": 458.0,
+        "total_trades": 55,
+        "win_count": 46,
+        "loss_count": 9,
+        "win_rate": 83.6,
+        "expectancy": 2.589,
+        "avg_r": 2.59,
+        "avg_win_r": 3.44,
+        "avg_loss_r": -1.78,
+        "avg_win_dollar": 11.11,
+        "avg_loss_dollar": -6.74,
+        "profit_factor": 8.43,
+        "total_pnl": 450.48,
+        "final_capital": 908.48,
+        "growth_pct": 98.4,
+        "max_win_streak": 15,
+        "max_loss_streak": 2,
+        "max_drawdown_pct": -3.0,
+        "recovery_factor": 150.03,
+        "stop_gap_pct": 0.0,
+        "avg_hold_days": 3.3,
+        "exit_reasons": {
+          "TARGET": 35,
+          "TIME_EXIT": 15,
+          "EOD_FORCE": 5
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 14,
+            "pnl": 102.88,
+            "win_rate": 71.4,
+            "avg_r": 2.24
+          },
+          "TECH": {
+            "trades": 12,
+            "pnl": 132.89,
+            "win_rate": 91.7,
+            "avg_r": 3.4
+          },
+          "FINANCIALS": {
+            "trades": 13,
+            "pnl": 128.99,
+            "win_rate": 100.0,
+            "avg_r": 3.32
+          },
+          "INDUSTRIALS": {
+            "trades": 3,
+            "pnl": 43.02,
+            "win_rate": 100.0,
+            "avg_r": 4.0
+          },
+          "ENERGY": {
+            "trades": 4,
+            "pnl": 3.52,
+            "win_rate": 50.0,
+            "avg_r": 0.18
+          },
+          "CONSUMER": {
+            "trades": 7,
+            "pnl": 29.06,
+            "win_rate": 71.4,
+            "avg_r": 1.73
+          },
+          "UTILITIES": {
+            "trades": 1,
+            "pnl": 4.84,
+            "win_rate": 100.0,
+            "avg_r": 1.05
+          },
+          "BASIC_MATERIALS": {
+            "trades": 1,
+            "pnl": 5.28,
+            "win_rate": 100.0,
+            "avg_r": 1.24
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 2.589,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 2.589,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 83.6,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 3.0,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 12,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-12",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-11",
+        "starting_capital": 458.0,
+        "total_trades": 30,
+        "win_count": 27,
+        "loss_count": 3,
+        "win_rate": 90.0,
+        "expectancy": 2.737,
+        "avg_r": 2.74,
+        "avg_win_r": 3.33,
+        "avg_loss_r": -2.61,
+        "avg_win_dollar": 9.35,
+        "avg_loss_dollar": -9.55,
+        "profit_factor": 8.82,
+        "total_pnl": 223.85,
+        "final_capital": 681.85,
+        "growth_pct": 48.9,
+        "max_win_streak": 13,
+        "max_loss_streak": 1,
+        "max_drawdown_pct": -3.0,
+        "recovery_factor": 74.55,
+        "stop_gap_pct": 0.0,
+        "avg_hold_days": 2.5,
+        "exit_reasons": {
+          "TARGET": 21,
+          "EOD_FORCE": 5,
+          "TIME_EXIT": 4
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 6,
+            "pnl": 47.32,
+            "win_rate": 83.3,
+            "avg_r": 2.93
+          },
+          "TECH": {
+            "trades": 6,
+            "pnl": 64.81,
+            "win_rate": 100.0,
+            "avg_r": 4.0
+          },
+          "FINANCIALS": {
+            "trades": 6,
+            "pnl": 37.32,
+            "win_rate": 100.0,
+            "avg_r": 2.45
+          },
+          "INDUSTRIALS": {
+            "trades": 3,
+            "pnl": 36.08,
+            "win_rate": 100.0,
+            "avg_r": 4.0
+          },
+          "CONSUMER": {
+            "trades": 5,
+            "pnl": 27.09,
+            "win_rate": 80.0,
+            "avg_r": 2.17
+          },
+          "UTILITIES": {
+            "trades": 1,
+            "pnl": 4.22,
+            "win_rate": 100.0,
+            "avg_r": 1.05
+          },
+          "ENERGY": {
+            "trades": 2,
+            "pnl": 2.49,
+            "win_rate": 50.0,
+            "avg_r": 0.36
+          },
+          "BASIC_MATERIALS": {
+            "trades": 1,
+            "pnl": 4.52,
+            "win_rate": 100.0,
+            "avg_r": 1.24
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 2.737,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 2.737,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 90.0,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 3.0,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 4,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-12",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-11",
+        "starting_capital": 458.0,
+        "total_trades": 30,
+        "win_count": 27,
+        "loss_count": 3,
+        "win_rate": 90.0,
+        "expectancy": 2.737,
+        "avg_r": 2.74,
+        "avg_win_r": 3.33,
+        "avg_loss_r": -2.61,
+        "avg_win_dollar": 9.35,
+        "avg_loss_dollar": -9.55,
+        "profit_factor": 8.82,
+        "total_pnl": 223.85,
+        "final_capital": 681.85,
+        "growth_pct": 48.9,
+        "max_win_streak": 13,
+        "max_loss_streak": 1,
+        "max_drawdown_pct": -3.0,
+        "recovery_factor": 74.55,
+        "stop_gap_pct": 0.0,
+        "avg_hold_days": 2.5,
+        "exit_reasons": {
+          "TARGET": 21,
+          "EOD_FORCE": 5,
+          "TIME_EXIT": 4
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 6,
+            "pnl": 47.32,
+            "win_rate": 83.3,
+            "avg_r": 2.93
+          },
+          "TECH": {
+            "trades": 6,
+            "pnl": 64.81,
+            "win_rate": 100.0,
+            "avg_r": 4.0
+          },
+          "FINANCIALS": {
+            "trades": 6,
+            "pnl": 37.32,
+            "win_rate": 100.0,
+            "avg_r": 2.45
+          },
+          "INDUSTRIALS": {
+            "trades": 3,
+            "pnl": 36.08,
+            "win_rate": 100.0,
+            "avg_r": 4.0
+          },
+          "CONSUMER": {
+            "trades": 5,
+            "pnl": 27.09,
+            "win_rate": 80.0,
+            "avg_r": 2.17
+          },
+          "UTILITIES": {
+            "trades": 1,
+            "pnl": 4.22,
+            "win_rate": 100.0,
+            "avg_r": 1.05
+          },
+          "ENERGY": {
+            "trades": 2,
+            "pnl": 2.49,
+            "win_rate": 50.0,
+            "avg_r": 0.36
+          },
+          "BASIC_MATERIALS": {
+            "trades": 1,
+            "pnl": 4.52,
+            "win_rate": 100.0,
+            "avg_r": 1.24
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 2.737,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 2.737,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 90.0,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 3.0,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 4,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    },
+    {
+      "generated": "2026-05-12",
+      "journal_source": "journal/paper_trades.json",
+      "metrics": {
+        "period": "2026-04-01 to 2026-05-11",
+        "starting_capital": 458.0,
+        "total_trades": 28,
+        "win_count": 25,
+        "loss_count": 3,
+        "win_rate": 89.3,
+        "expectancy": 3.279,
+        "avg_r": 3.28,
+        "avg_win_r": 3.99,
+        "avg_loss_r": -2.61,
+        "avg_win_dollar": 11.46,
+        "avg_loss_dollar": -10.65,
+        "profit_factor": 8.97,
+        "total_pnl": 254.57,
+        "final_capital": 712.57,
+        "growth_pct": 55.6,
+        "max_win_streak": 12,
+        "max_loss_streak": 1,
+        "max_drawdown_pct": -3.3,
+        "recovery_factor": 78.09,
+        "stop_gap_pct": 0.0,
+        "avg_hold_days": 3.0,
+        "exit_reasons": {
+          "TARGET": 18,
+          "TIME_EXIT": 5,
+          "EOD_FORCE": 5
+        },
+        "sectors": {
+          "HEALTHCARE": {
+            "trades": 5,
+            "pnl": 49.75,
+            "win_rate": 80.0,
+            "avg_r": 3.51
+          },
+          "TECH": {
+            "trades": 6,
+            "pnl": 82.6,
+            "win_rate": 100.0,
+            "avg_r": 5.0
+          },
+          "FINANCIALS": {
+            "trades": 5,
+            "pnl": 34.06,
+            "win_rate": 100.0,
+            "avg_r": 2.54
+          },
+          "INDUSTRIALS": {
+            "trades": 3,
+            "pnl": 45.42,
+            "win_rate": 100.0,
+            "avg_r": 5.0
+          },
+          "CONSUMER": {
+            "trades": 5,
+            "pnl": 31.55,
+            "win_rate": 80.0,
+            "avg_r": 2.71
+          },
+          "UTILITIES": {
+            "trades": 1,
+            "pnl": 4.8,
+            "win_rate": 100.0,
+            "avg_r": 1.05
+          },
+          "ENERGY": {
+            "trades": 2,
+            "pnl": 2.66,
+            "win_rate": 50.0,
+            "avg_r": 0.36
+          },
+          "BASIC_MATERIALS": {
+            "trades": 1,
+            "pnl": 3.73,
+            "win_rate": 100.0,
+            "avg_r": 1.24
+          }
+        }
+      },
+      "gates": {
+        "expectancy_healthy": {
+          "value": 3.279,
+          "threshold": 0.2,
+          "status": "PASS"
+        },
+        "expectancy_critical": {
+          "value": 3.279,
+          "threshold": 0.1,
+          "status": "PASS",
+          "action": null
+        },
+        "win_rate": {
+          "value": 89.3,
+          "threshold": 35.0,
+          "status": "PASS"
+        },
+        "drawdown": {
+          "value": 3.3,
+          "threshold": 15.0,
+          "status": "PASS"
+        },
+        "overall": "ALL_CLEAR"
+      },
+      "whitelist_count": 4,
+      "qualification": {
+        "min_20_trades": true,
+        "expectancy_above_020": true,
+        "win_rate_above_35": true,
+        "all_pass": true
+      }
+    }
+  ],
+  "last_updated": "2026-05-12"
+}
