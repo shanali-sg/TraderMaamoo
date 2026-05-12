@@ -1,6 +1,9 @@
-# 🤖 OTZ Bot - Equity Tracker
+# TraderMaamoo — Stage 2 Trend-Surfer
 
-## 📊 Current Status
+Automated swing trading bot. Red candle pullbacks in Stage 2 uptrends. +5R target. 7-day time exit. No stop-loss.
+
+## Live Performance
+
 | Metric | Value |
 |--------|-------|
 | Start Date | April 1, 2026 |
@@ -8,25 +11,29 @@
 | **Current Equity** | **$XXX.XX** |
 | **Total Return** | **+XXX%** |
 
-## 📈 Live Equity Chart
 ![Equity Chart](equity_chart.png)
 
-## 🔔 Trade Alerts
-Subscribe to my private Telegram channel for real-time trade alerts:  
-👉 **[@TraderMaamooAlerts](https://t.me/TraderMaamooAlerts)** 👈
+## Strategy
+
+- Entry: Quality red candle at SMA20 during Stage 2 uptrend
+- Target: +5R take-profit limit
+- Exit: 7 trading days (time stop)
+- Risk: 2% per bullet, 4 bullets, fractional shares
+- Universe: ~130 liquid US stocks, earnings excluded
+
+## Performance (Paper Backtest — Apr 1 to May 11, 2026)
+
+- Win Rate: **89.3%**
+- Expectancy: **+3.28R**
+- Avg Win: +3.99R
+- Max Loss Run: 1
+- Max Drawdown: -3.3%
+
+## Copy Trading
+
+Real-time trade alerts via private Telegram channel.  
+Every entry, target, and exit posted as it happens.
+
+**[@TraderMaamooAlerts](https://t.me/TraderMaamooAlerts)** — $99/month
 
 *Bot: @traderMaamooBot*
-
-## 📋 Strategy
-- RSI(2) Mean Reversion
-- 3x Leveraged ETFs (SOXL, TQQQ, TECL, LABU)
-- Market-on-Close execution
-- AI-optimized parameters (Llama 3)
-
-## 📊 Performance (Backtested Jan-Apr 2026)
-- Win Rate: **81.2%**
-- Avg Trade: **+4.1%**
-- Best Performer: SOXL (+15.3%, 100% WR)
-
----
-*Updated daily after market close*
