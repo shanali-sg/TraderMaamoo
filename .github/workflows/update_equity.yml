@@ -1,0 +1,32 @@
+name: Update Equity Chart
+
+on:
+  schedule:
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install matplotlib
+
+      - name: Run equity tracker
+        run: python update_equity.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "TraderMaamoo"
+          git config user.email "bot@tradermaamoo.com"
+          git add equity_chart.png equity_history.json 2>/dev/null || true
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update equity chart [skip ci]"
+          git push
+        continue-on-error: true
