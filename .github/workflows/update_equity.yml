@@ -10,26 +10,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
       - name: Install dependencies
-        run: |
-          pip install requests matplotlib
-      
+        run: pip install matplotlib
+
       - name: Run equity tracker
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python update_equity.py || echo "⚠️ No equity data yet (expected before first trade)"
-      
-      - name: Commit and push changes (if any)
+        run: python update_equity.py
+
+      - name: Commit and push
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config user.name "TraderMaamoo"
+          git config user.email "bot@tradermaamoo.com"
           git add equity_chart.png equity_history.json 2>/dev/null || true
           git diff --quiet && git diff --staged --quiet || git commit -m "Update equity chart [skip ci]"
           git push
